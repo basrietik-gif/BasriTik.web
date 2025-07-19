@@ -1,40 +1,29 @@
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portofolio | Basrietik</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8">
+    <title>Portofolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="bg-gray-100 text-gray-800">
-  <div class="max-w-5xl mx-auto p-6">
-    <header class="mb-8">
-      <h1 class="text-3xl font-bold text-blue-700">Portofolio Kami</h1>
-      <p class="text-gray-600">Berikut beberapa proyek digital yang telah kami kerjakan.</p>
-    </header>
-
-    <div class="grid md:grid-cols-3 gap-6">
-      <!-- Proyek 1 -->
-      <div class="bg-white rounded-xl p-4 shadow">
-        <img src="images/toko-online.jpg" alt="Toko Online" class="rounded-lg mb-3 shadow" />
-        <h3 class="text-lg font-semibold mb-1">Website Toko Online</h3>
-        <p class="text-sm text-gray-600">Website e-commerce sederhana dengan katalog produk dan sistem checkout.</p>
-      </div>
-
-      <!-- Proyek 2 -->
-      <div class="bg-white rounded-xl p-4 shadow">
-        <img src="images/booking-app.jpg" alt="Booking App" class="rounded-lg mb-3 shadow" />
-        <h3 class="text-lg font-semibold mb-1">Aplikasi Booking</h3>
-        <p class="text-sm text-gray-600">Aplikasi web untuk booking layanan dan sistem notifikasi WhatsApp.</p>
-      </div>
-
-      <!-- Proyek 3 -->
-      <div class="bg-white rounded-xl p-4 shadow">
-        <img src="images/dashboard.jpg" alt="Dashboard Admin" class="rounded-lg mb-3 shadow" />
-        <h3 class="text-lg font-semibold mb-1">Dashboard Admin</h3>
-        <p class="text-sm text-gray-600">Dashboard custom untuk manajemen user dan statistik bisnis.</p>
-      </div>
+<body class="bg-gray-100 text-gray-800 p-4">
+    <h1 class="text-3xl font-bold mb-4">Portofolio</h1>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="border rounded-xl p-4 shadow hover:shadow-md transition">
+            <img src="images/toko-online.jpg" alt="Toko Online" class="rounded-xl mb-2 shadow" />
+            <h3 class="text-xl font-bold mb-2">Website Toko Online</h3>
+            <p>Website e-commerce sederhana dengan katalog produk dan sistem checkout.</p>
+        </div>
+        <div class="border rounded-xl p-4 shadow hover:shadow-md transition">
+            <img src="images/booking-app.jpg" alt="Aplikasi Booking" class="rounded-xl mb-2 shadow" />
+            <h3 class="text-xl font-bold mb-2">Aplikasi Booking</h3>
+            <p>Aplikasi pemesanan layanan dengan kalender dan notifikasi email.</p>
+        </div>
+        <div class="border rounded-xl p-4 shadow hover:shadow-md transition">
+            <img src="images/dashboard.jpg" alt="Dashboard Admin" class="rounded-xl mb-2 shadow" />
+            <h3 class="text-xl font-bold mb-2">Dashboard Admin</h3>
+            <p>Dashboard statistik dengan grafik interaktif dan manajemen pengguna.</p>
+        </div>
     </div>
-  </div>
 </body>
 </html>
